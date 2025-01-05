@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "swd2usb-basic.kicad_pro",
+    "filename": "swd2usbc-basic.kicad_pro",
     "version": 1
   },
   "net_settings": {
