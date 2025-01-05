@@ -255,8 +255,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C134092"
-			(at 0 0 -90)
+		(property "LCSC" "C2761408"
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8364fe0f-f3a4-4d7e-8fa1-62cf447bcba5")

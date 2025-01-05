@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 0.8208)
+		(thickness 0.8)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -64,7 +64,7 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.1 locked)
+				(thickness 0.1)
 				(material "FR408-HR")
 				(epsilon_r 3.69)
 				(loss_tangent 0.0091)
@@ -75,7 +75,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 0.465)
+				(thickness 0.4442)
 				(material "FR408-HR")
 				(epsilon_r 3.69)
 				(loss_tangent 0.0091)
@@ -86,7 +86,7 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1 locked)
+				(thickness 0.1)
 				(material "FR408-HR")
 				(epsilon_r 3.69)
 				(loss_tangent 0.0091)
@@ -1183,7 +1183,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C965804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3065,7 +3065,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C220282"
+		(property "LCSC" "C617902"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6581,7 +6581,7 @@
 		)
 	)
 	(gr_text "ERR"
-		(at 165.35 73.5 0)
+		(at 165.2 73.5 0)
 		(layer "F.SilkS")
 		(uuid "a73cc03c-9217-4694-9f28-e0b39775daa7")
 		(effects
@@ -6592,7 +6592,7 @@
 		)
 	)
 	(gr_text "OK"
-		(at 165.05 61.7 0)
+		(at 165.2 61.7 0)
 		(layer "F.SilkS")
 		(uuid "d534f295-c25f-4569-a338-412eaecbbc81")
 		(effects
