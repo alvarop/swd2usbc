@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SWD2USBC")
-		(date "2025-01-05")
-		(rev "5.0")
+		(date "2025-01-18")
+		(rev "5.1")
 		(company "alvarop.com")
 	)
 	(lib_symbols
@@ -4394,7 +4394,6 @@
 	)
 	(label "SWDIO"
 		(at 236.22 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4405,7 +4404,6 @@
 	)
 	(label "NRST"
 		(at 236.22 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4416,7 +4414,6 @@
 	)
 	(label "CC1_R1"
 		(at 147.32 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4427,7 +4424,6 @@
 	)
 	(label "MCURST"
 		(at 55.88 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4438,7 +4434,6 @@
 	)
 	(label "CC2"
 		(at 190.5 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4449,7 +4444,6 @@
 	)
 	(label "CC2_R1"
 		(at 147.32 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4460,7 +4454,6 @@
 	)
 	(label "CC1_R2"
 		(at 167.64 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4471,7 +4464,6 @@
 	)
 	(label "CC2_R1"
 		(at 167.64 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4482,7 +4474,6 @@
 	)
 	(label "SWDIO"
 		(at 144.78 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4493,7 +4484,6 @@
 	)
 	(label "NRST"
 		(at 144.78 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4504,7 +4494,6 @@
 	)
 	(label "CC1_R2"
 		(at 147.32 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4515,7 +4504,6 @@
 	)
 	(label "CC2_R2"
 		(at 147.32 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4526,7 +4514,6 @@
 	)
 	(label "SBU2"
 		(at 165.1 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4537,7 +4524,6 @@
 	)
 	(label "SBU1"
 		(at 236.22 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4548,7 +4534,6 @@
 	)
 	(label "SWDCLK"
 		(at 144.78 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4559,7 +4544,6 @@
 	)
 	(label "D+"
 		(at 236.22 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4570,7 +4554,6 @@
 	)
 	(label "SHIELD"
 		(at 15.24 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4581,7 +4564,6 @@
 	)
 	(label "SBU1"
 		(at 165.1 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4592,7 +4574,6 @@
 	)
 	(label "MCURST"
 		(at 147.32 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4603,7 +4584,6 @@
 	)
 	(label "SBU1"
 		(at 144.78 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4614,7 +4594,6 @@
 	)
 	(label "SWO"
 		(at 144.78 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4625,7 +4604,6 @@
 	)
 	(label "CC1_R1"
 		(at 167.64 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4636,7 +4614,6 @@
 	)
 	(label "D-"
 		(at 53.34 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4647,7 +4624,6 @@
 	)
 	(label "SCK"
 		(at 55.88 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4658,7 +4634,6 @@
 	)
 	(label "SBU2"
 		(at 236.22 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4669,7 +4644,6 @@
 	)
 	(label "CC2_IN_MISO"
 		(at 45.72 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4680,7 +4654,6 @@
 	)
 	(label "CC2"
 		(at 236.22 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4691,7 +4664,6 @@
 	)
 	(label "SCK"
 		(at 147.32 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4702,7 +4674,6 @@
 	)
 	(label "SHIELD"
 		(at 271.78 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4713,7 +4684,6 @@
 	)
 	(label "D-"
 		(at 236.22 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4724,7 +4694,6 @@
 	)
 	(label "CC2_R2"
 		(at 167.64 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4735,7 +4704,6 @@
 	)
 	(label "CC1"
 		(at 236.22 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4746,7 +4714,6 @@
 	)
 	(label "D+"
 		(at 53.34 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4757,7 +4724,6 @@
 	)
 	(label "SWDCLK"
 		(at 236.22 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4768,7 +4734,6 @@
 	)
 	(label "CC1_IN_MOSI"
 		(at 149.86 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4779,7 +4744,6 @@
 	)
 	(label "SWO"
 		(at 236.22 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4790,7 +4754,6 @@
 	)
 	(label "CC2_IN_MISO"
 		(at 149.86 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4801,7 +4764,6 @@
 	)
 	(label "CC1_IN_MOSI"
 		(at 45.72 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4812,7 +4774,6 @@
 	)
 	(label "CC1"
 		(at 190.5 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
