@@ -69,10 +69,6 @@
         "copper_edge_clearance|180216549|64427592|7c509d85-28f6-4b0e-9f6f-8c8b65ee46ad|f4ea6d56-eda0-4d0e-a06e-8013827cdfda",
         "copper_edge_clearance|180216549|70572408|ebdd1dd2-9e17-4ca9-ab44-a1850beea596|2b43ab80-f1f6-4142-95ce-9ba6dd8ef112",
         "copper_edge_clearance|180216549|70572408|ebdd1dd2-9e17-4ca9-ab44-a1850beea596|f510e41b-c4bb-4f64-8d11-4672052a1c9d",
-        "copper_edge_clearance|180400616|64436646|7c509d85-28f6-4b0e-9f6f-8c8b65ee46ad|0bba5f58-84d3-475f-b7f0-786585aa5458",
-        "copper_edge_clearance|180400616|64436646|7c509d85-28f6-4b0e-9f6f-8c8b65ee46ad|ad73a766-d0e5-429d-95b1-535420486f6e",
-        "copper_edge_clearance|180400616|70563354|ebdd1dd2-9e17-4ca9-ab44-a1850beea596|4343727f-ecec-4a50-9ce8-5125f59cdf15",
-        "copper_edge_clearance|180400616|70563354|ebdd1dd2-9e17-4ca9-ab44-a1850beea596|818277f7-5dd8-435d-a66e-ce1a8a9e8054",
         "lib_footprint_mismatch|168600000|67500000|606cc23c-679a-4fa3-b3b1-c023026298b1|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {

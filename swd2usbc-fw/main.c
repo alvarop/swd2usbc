@@ -19,32 +19,47 @@ typedef enum {
   USB_3000MA,
 } USBCurrent_t;
 
-// Current | CC1/CC2 In | CC1 Rpu | CC2 Rpu
-// 500mA   |    0.42V   | 10 kOhm | 22 kOhm
-// 1.5A    |    0.94V   | 22 kOhm | 56 kOhm
-// 3.0A    |    1.69V   | 10 kOhm | 22 kOhm
+// Current | CC1/CC2 In | CC1 Rpu          | CC2 Rpu
+// 500mA   |    0.42V   | 10 kOhm (CC1_R2) | 22 kOhm (CC2_R2)
+// 1.5A    |    0.94V   | 22 kOhm (CC1_R1) | 56 kOhm (CC2_R1)
+// 3.0A    |    1.69V   | 10 kOhm (CC1_R2) | 56 kOhm (CC2_R1)
 
 void set_usb_current(USBCurrent_t current) {
   switch (current) {
     case USB_500MA: {
-      DDRB |= _BV(CC1_R2);
       DDRB &= ~_BV(CC1_R1);
-      DDRA |= _BV(CC2_R2);
+      DDRB |= _BV(CC1_R2);
+      PORTB &= ~_BV(CC1_R1);
+      PORTB |= _BV(CC1_R2);
+
       DDRA &= ~_BV(CC2_R1);
+      DDRA |= _BV(CC2_R2);
+      PORTA &= ~_BV(CC2_R1);
+      PORTA |= _BV(CC2_R2);
       break;
     }
     case USB_1500MA: {
       DDRB &= ~_BV(CC1_R2);
       DDRB |= _BV(CC1_R1);
+      PORTB &= ~_BV(CC1_R2);
+      PORTB |= _BV(CC1_R1);
+
       DDRA &= ~_BV(CC2_R2);
       DDRA |= _BV(CC2_R1);
+      PORTA &= ~_BV(CC2_R2);
+      PORTA |= _BV(CC2_R1);
       break;
     }
     case USB_3000MA: {
-      DDRB |= _BV(CC1_R2);
       DDRB &= ~_BV(CC1_R1);
+      DDRB |= _BV(CC1_R2);
+      PORTB &= ~_BV(CC1_R1);
+      PORTB |= _BV(CC1_R2);
+
       DDRA &= ~_BV(CC2_R2);
       DDRA |= _BV(CC2_R1);
+      PORTA &= ~_BV(CC2_R2);
+      PORTA |= _BV(CC2_R1);
       break;
     }
   }
@@ -92,7 +107,7 @@ int main(void) {
   DDRA &= ~(_BV(CC2_R2) | _BV(CC2_R1));
   DDRB &= ~(_BV(CC1_R2) | _BV(CC1_R1));
 
-  // Set outputs high
+  // Set outputs high (so they are on when switched to outputs)
   PORTA = _BV(CC2_R2) | _BV(CC2_R1);
   PORTB = _BV(CC1_R2) | _BV(CC1_R1);
 
@@ -107,7 +122,7 @@ int main(void) {
 
   while (1) {
     set_usb_current(get_cc_current());
-    _delay_ms(1000);
+    _delay_ms(10);
   }
   return 0;
 }

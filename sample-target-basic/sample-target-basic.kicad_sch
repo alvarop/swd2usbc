@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "SWD2USBC Sample Target (Basic)")
-		(date "2025-01-05")
-		(rev "v1.0")
+		(date "2025-02-16")
+		(rev "v1.1")
 		(company "alvarop.com")
 	)
 	(lib_symbols
@@ -4531,20 +4531,12 @@
 		(uuid "a4e47fec-7905-468d-9b2c-dabdeedf9535")
 	)
 	(no_connect
-		(at 325.12 144.78)
-		(uuid "b3a72eec-25af-4c1b-baf0-83eef106a0cb")
-	)
-	(no_connect
 		(at 60.96 71.12)
 		(uuid "b40c2107-7faa-47bc-87e7-223c7c9c50ec")
 	)
 	(no_connect
 		(at 325.12 93.98)
 		(uuid "bd166fcc-8f6c-4206-a0ed-444306397ed7")
-	)
-	(no_connect
-		(at 325.12 139.7)
-		(uuid "c011e8c5-5b6f-4792-a7b8-b73c74422fac")
 	)
 	(no_connect
 		(at 60.96 88.9)
@@ -5234,6 +5226,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 139.7) (xy 331.47 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629d956e-2bfb-4adb-9671-e506321809c2")
+	)
+	(wire
+		(pts
 			(xy 259.08 116.84) (xy 274.32 116.84)
 		)
 		(stroke
@@ -5421,6 +5423,16 @@
 			(type default)
 		)
 		(uuid "827d1495-77f7-43db-96de-1e7d7815fecd")
+	)
+	(wire
+		(pts
+			(xy 325.12 144.78) (xy 331.47 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829f6434-a6a7-4ee1-b5d1-56886d92fbe2")
 	)
 	(wire
 		(pts
@@ -6347,7 +6359,6 @@
 	)
 	(label "QSPI_SD3"
 		(at 259.08 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6358,7 +6369,6 @@
 	)
 	(label "CC2"
 		(at 99.06 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6369,7 +6379,6 @@
 	)
 	(label "SWD"
 		(at 259.08 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6380,7 +6389,6 @@
 	)
 	(label "USB_D+"
 		(at 236.22 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6391,7 +6399,6 @@
 	)
 	(label "QSPI_SS"
 		(at 259.08 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6402,7 +6409,6 @@
 	)
 	(label "CC1"
 		(at 99.06 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6413,7 +6419,6 @@
 	)
 	(label "QSPI_SD0"
 		(at 259.08 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6424,7 +6429,6 @@
 	)
 	(label "USB_D+"
 		(at 73.66 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6435,7 +6439,6 @@
 	)
 	(label "USB_D-"
 		(at 73.66 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6446,7 +6449,6 @@
 	)
 	(label "RUN"
 		(at 259.08 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6457,7 +6459,6 @@
 	)
 	(label "XIN"
 		(at 259.08 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6468,7 +6469,6 @@
 	)
 	(label "~{USB_BOOT}"
 		(at 173.99 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6479,7 +6479,6 @@
 	)
 	(label "QSPI_SD3"
 		(at 200.66 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6490,7 +6489,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 200.66 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6501,7 +6499,6 @@
 	)
 	(label "LED2"
 		(at 349.25 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6512,7 +6509,6 @@
 	)
 	(label "XOUT"
 		(at 259.08 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6523,7 +6519,6 @@
 	)
 	(label "UART0_TX"
 		(at 344.17 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6534,7 +6529,6 @@
 	)
 	(label "SWD"
 		(at 73.66 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6543,9 +6537,18 @@
 		)
 		(uuid "75c95a2d-da96-4279-ae65-2498564c32e5")
 	)
+	(label "CC2"
+		(at 331.47 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "780c013e-d8df-413f-8c4f-c894e1527f1f")
+	)
 	(label "QSPI_SD2"
 		(at 259.08 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6556,7 +6559,6 @@
 	)
 	(label "UART0_RX"
 		(at 344.17 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6567,7 +6569,6 @@
 	)
 	(label "RUN"
 		(at 165.1 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6578,7 +6579,6 @@
 	)
 	(label "LED1"
 		(at 349.25 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6589,7 +6589,6 @@
 	)
 	(label "D-"
 		(at 262.89 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6600,7 +6599,6 @@
 	)
 	(label "SWCLK"
 		(at 73.66 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6611,7 +6609,6 @@
 	)
 	(label "SWO"
 		(at 73.66 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6622,7 +6619,6 @@
 	)
 	(label "XOUT"
 		(at 320.04 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6633,7 +6629,6 @@
 	)
 	(label "D+"
 		(at 262.89 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6644,7 +6639,6 @@
 	)
 	(label "SWCLK"
 		(at 259.08 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6655,7 +6649,6 @@
 	)
 	(label "QSPI_SD1"
 		(at 200.66 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6664,9 +6657,18 @@
 		)
 		(uuid "b9fe74db-fbcb-4294-a42c-8236e6d5e228")
 	)
+	(label "CC1"
+		(at 331.47 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba7f2d09-aaa9-4d3e-9b40-ab8b1d47447d")
+	)
 	(label "QSPI_SS"
 		(at 200.66 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6677,7 +6679,6 @@
 	)
 	(label "USB_D-"
 		(at 236.22 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6688,7 +6689,6 @@
 	)
 	(label "QSPI_SD1"
 		(at 259.08 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6699,7 +6699,6 @@
 	)
 	(label "XIN"
 		(at 320.04 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6710,7 +6709,6 @@
 	)
 	(label "QSPI_SD2"
 		(at 200.66 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6721,7 +6719,6 @@
 	)
 	(label "RUN"
 		(at 73.66 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6732,7 +6729,6 @@
 	)
 	(label "QSPI_SD0"
 		(at 200.66 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6743,7 +6739,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 259.08 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
