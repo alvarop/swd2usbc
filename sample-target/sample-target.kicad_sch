@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "SWD2USBC Sample Target")
-		(date "2025-02-16")
-		(rev "v1.1")
+		(date "2025-02-19")
+		(rev "v1.2")
 		(company "alvarop.com")
 	)
 	(lib_symbols
@@ -5072,6 +5072,12 @@
 		(uuid "47c3cd23-570f-4d2a-a7e6-c054912ec350")
 	)
 	(junction
+		(at 325.12 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b116fc4-c119-43ba-a554-749d4b908e37")
+	)
+	(junction
 		(at 358.14 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5130,6 +5136,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e879eef-d87f-4711-ac5f-a807e406267e")
+	)
+	(junction
+		(at 339.09 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ec0884a-deec-435b-808f-b9f71316ad11")
 	)
 	(junction
 		(at 193.04 160.02)
@@ -5447,6 +5459,26 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 196.85) (xy 339.09 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041694a3-a4eb-4366-8702-ad3aa6a22aba")
+	)
+	(wire
+		(pts
+			(xy 325.12 215.9) (xy 328.93 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042b1123-e1ea-4448-aa5e-c689b8e97252")
+	)
+	(wire
+		(pts
 			(xy 312.42 30.48) (xy 323.85 30.48)
 		)
 		(stroke
@@ -5604,6 +5636,16 @@
 			(type default)
 		)
 		(uuid "1259353e-5bec-47c1-9ede-ae19abae5724")
+	)
+	(wire
+		(pts
+			(xy 325.12 210.82) (xy 325.12 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1348b954-85b1-4b84-92b4-2713ed90c800")
 	)
 	(wire
 		(pts
@@ -7057,7 +7099,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 215.9) (xy 328.93 215.9)
+			(xy 309.88 215.9) (xy 325.12 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7344,6 +7386,16 @@
 			(type default)
 		)
 		(uuid "c1342779-0c5d-460b-9bab-8da9dac23e44")
+	)
+	(wire
+		(pts
+			(xy 325.12 203.2) (xy 325.12 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1787393-a3de-41fe-9151-0a5fd3b43f20")
 	)
 	(wire
 		(pts
@@ -12682,6 +12734,82 @@
 			(project "sample-target"
 				(path "/f3846d6f-2066-409b-95b3-d044da1ab9d1"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 325.12 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3c169cf-ebd8-48ac-88bb-ba05f8a3963a")
+		(property "Reference" "R12"
+			(at 319.8622 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 322.1736 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 323.342 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 325.12 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ec7a6ac-adf7-4e61-92e4-51ac9d058ba7")
+		)
+		(pin "2"
+			(uuid "6de4f623-2007-4f0b-a57c-2bcbe42d7573")
+		)
+		(instances
+			(project "sample-target"
+				(path "/f3846d6f-2066-409b-95b3-d044da1ab9d1"
+					(reference "R12")
 					(unit 1)
 				)
 			)

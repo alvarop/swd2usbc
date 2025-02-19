@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "SWD2USBC Sample Target (Basic)")
-		(date "2025-02-16")
-		(rev "v1.1")
+		(date "2025-02-19")
+		(rev "v1.2")
 		(company "alvarop.com")
 	)
 	(lib_symbols
@@ -4401,6 +4401,12 @@
 		(uuid "aa7b0bbb-8ed3-42bd-8d07-21aaf4a0396a")
 	)
 	(junction
+		(at 213.36 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab94b361-5551-47bc-afe6-62055d043b81")
+	)
+	(junction
 		(at 346.71 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4423,6 +4429,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2d3add0-eef5-4312-94bb-d14313e066fd")
+	)
+	(junction
+		(at 226.06 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6905efc-a67f-48dd-81a8-8192fe198532")
 	)
 	(junction
 		(at 233.68 123.19)
@@ -4743,6 +4755,16 @@
 			(type default)
 		)
 		(uuid "14d4bb77-ff43-4ae3-948e-3ee84877b576")
+	)
+	(wire
+		(pts
+			(xy 213.36 135.89) (xy 213.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187c8189-b241-462a-aa20-7bb30208fc30")
 	)
 	(wire
 		(pts
@@ -5526,6 +5548,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 123.19) (xy 226.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd91208-962f-4fe0-8626-d775854b3be0")
+	)
+	(wire
+		(pts
 			(xy 259.08 127) (xy 274.32 127)
 		)
 		(stroke
@@ -5646,6 +5678,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 128.27) (xy 213.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef5b1c6-876e-4f23-a226-3b61ee8bba36")
+	)
+	(wire
+		(pts
 			(xy 341.63 78.74) (xy 341.63 92.71)
 		)
 		(stroke
@@ -5696,7 +5738,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 142.24) (xy 215.9 142.24)
+			(xy 196.85 142.24) (xy 213.36 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6293,6 +6335,16 @@
 			(type default)
 		)
 		(uuid "f2dfed12-5953-4eb9-b6d3-9314b26f2dc8")
+	)
+	(wire
+		(pts
+			(xy 213.36 142.24) (xy 215.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c2a6b1-5d4b-45f4-9c87-f88cd8dffcb0")
 	)
 	(wire
 		(pts
@@ -8864,6 +8916,82 @@
 			(project "sample-target-basic"
 				(path "/f3846d6f-2066-409b-95b3-d044da1ab9d1"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "892f45c3-8cf8-4442-83d5-c273c2b3d427")
+		(property "Reference" "R9"
+			(at 208.1022 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 210.4136 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 211.582 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c315f657-af82-4148-bc98-b312cd908cc5")
+		)
+		(pin "2"
+			(uuid "75dca980-2234-44b5-9081-f2ae0bb0756d")
+		)
+		(instances
+			(project "sample-target-basic"
+				(path "/f3846d6f-2066-409b-95b3-d044da1ab9d1"
+					(reference "R9")
 					(unit 1)
 				)
 			)
