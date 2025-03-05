@@ -2,7 +2,7 @@
 
 Have you ever wanted to debug your device over USB-C? Sometimes there's not enough room for a JTAG/SWD connector, or even [Tag-Connect](https://www.tag-connect.com/) pads!
 
-TODO - link to detailed blog post
+For history and all of the details, check out [my detailed write up here](https://alvarop.com/2025/03/swd-to-usbc/).
 
 ## SWD2USBC
 ![SWD2USBC](img/swd2usbc.png) 
