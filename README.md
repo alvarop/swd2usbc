@@ -38,6 +38,6 @@ Basic example target. Similar to the sample target above, but does not include a
 ## SWD2USBC Programmer
 Simple adapter PCB to connect the AVRISP V2 connector to USB-C to program the ATTiny in the SWD2USBC device.
 
-![SWD2USBC Programmer](img/swd2usbc-programmer.png) 
+![SWD2USBC Programmer](img/swd2usbc-programmer.jpg)
 
 
